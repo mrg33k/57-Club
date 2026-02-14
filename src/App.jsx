@@ -647,7 +647,7 @@ const LandingPage = ({ handleJoinClick }) => (
             <span className="text-zinc-900 font-medium">No. We provide access to specific inventory.</span>
           </div>
         </div>
-        <div className="text-center">
+        <div className="text-center items-center">
           <h2 className="font-serif text-4xl md:text-5xl text-zinc-900 mb-6">Stop paying for the<br />hotel's marketing budget.</h2>
           <Button onClick={handleJoinClick} variant="primary" className="px-12 py-4 text-lg mb-6">
             Join 57 Club
