@@ -15,14 +15,14 @@ import {
 } from 'firebase/firestore';
 
 // --- FIREBASE CONFIGURATION ---
-// These pull from Vercel Environment Variables
+// Updated with your specific project credentials
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: "AIzaSyDv7h3M2UIB-ApGaPW-ptBvus336p2Q0_s",
+  authDomain: "club-94d16.firebaseapp.com",
+  projectId: "club-94d16",
+  storageBucket: "club-94d16.firebasestorage.app",
+  messagingSenderId: "753611483043",
+  appId: "1:753611483043:web:2458e9a7afcff92b2e5c16"
 };
 
 // Initialize Firebase
